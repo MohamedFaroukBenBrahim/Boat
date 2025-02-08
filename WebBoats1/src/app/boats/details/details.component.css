@@ -1,0 +1,48 @@
+.all{
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    font-size: x-large;
+}
+h1{
+    margin: 5px;
+}
+.block1{
+    width: 50%;
+}
+.block2{
+    width: 50%;
+}
+img{
+    width: 95%;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: solid black 1px;
+}
+.ava{
+    font-weight: bold;
+}
+.price{
+    font-weight: bold;
+}
+.buy {
+    background-color: #00C260;
+    color: white;
+  }
+.buy:hover {
+    background-color: #00994d;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+}
+.green{
+    color: greenyellow;
+}
+.red{
+    color: rgb(238, 65, 65);
+}

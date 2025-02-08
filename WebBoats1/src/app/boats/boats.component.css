@@ -1,0 +1,127 @@
+.ALL{
+  background-color: rgb(1, 40, 60);
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(1, 40, 60);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.bigname {
+    text-align: center;
+    font-size: 3rem;
+    color: #00C2E5;
+    text-decoration: underline;
+    margin: 0px;
+}
+.boat-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 20px;
+    padding: 20px;
+}
+.boat {
+    background-color: #fff;
+    border: 2px solid #00C2E5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 194, 229, 0.2);
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    transition: 0.3s;
+}
+.boat:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 194, 229, 0.3);
+}
+.boat-details {
+    padding: 20px;
+    flex: 1;
+}
+.name {
+    font-size: 1.8rem;
+    color: #00C260;
+    margin: 0 0 10px;
+}
+.id {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0 0 15px;
+}
+p{
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #555;
+}
+strong {
+    color: #333;
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.delete {
+  background-color: #ff4d4d;
+  color: white;
+}
+.delete:hover {
+  background-color: #e60000;
+}
+.edit {
+  background-color: #4d94ff;
+  color: white;
+}
+.edit:hover {
+  background-color: #0066cc;
+}
+.buy {
+  background-color: #00C260;
+  color: white;
+}
+.buy:hover {
+  background-color: #00994d;
+}
+.details{
+  background-color: #7c7474;
+  color: white;
+}
+.boatimg {
+  padding: 20px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+.addboat{
+  background-color: #f7f8f8;
+  border: 2px solid #00C2E5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 194, 229, 0.2);
+  display: flex;
+  max-width: 400px;
+  width: 100%;
+}
+.addcard{
+  padding-top: 40%;
+  padding-left: 30%;
+  height: 300px;
+  max-height: 300px;
+}
+.addbutton{
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 90px;
+}

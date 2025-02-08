@@ -1,0 +1,25 @@
+table {
+    width: 60%; /* Adjust width to fit nicely */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse; /* Merge borders for a clean look */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4; 
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd; 
+}

@@ -1,0 +1,73 @@
+<div class="back">
+<div class="ALL" [style.background-image]="'url(' + boat.imgUrl + ')'">
+  <div class="under">
+    <div>
+        <label for="id">ID:</label>
+        <input type="number" id="id" [(ngModel)]="boat.id" disabled >
+    </div>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" [(ngModel)]="boat.name" placeholder="Boat name">
+    </div>
+    <div>
+      <label for="price">Price:</label>
+      <input type="number" id="price" [(ngModel)]="boat.price" placeholder="On Dinar">
+    </div>
+    <div>
+      <label for="type">Type:</label>
+      <select name="type" id="type"  [(ngModel)]="boat.type" >
+        <option value="Manuel" >Manuel</option>
+        <option value="automated">automated</option>
+      </select>
+    </div>
+    <div>
+      <label for="manufacturing">Manufacturing Date:</label>
+      <input type="date" id="manufacturing" [(ngModel)]="boat.manufacturing">
+    </div>
+    <div>
+      <label for="available">Available:</label>
+      <select id="available" [(ngModel)]="boat.available">
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+      </select>
+    </div>
+    <div>
+      <label for="powersource">Power Source:</label>
+      <div>
+        <input type="radio" name="powersource" id="powersource1" value="Diesel" [(ngModel)]="boat.powersource" >
+        <label for="powersource1">Diesel</label >
+      </div>
+      <div>
+        <input type="radio" name="powersource" id="powersource2" value="Electric" [(ngModel)]="boat.powersource">
+        <label for="powersource2">Electric</label>
+      </div>
+      <div>
+        <input type="radio" name="powersource" id="powersource3" value="Hybrid" [(ngModel)]="boat.powersource">
+        <label for="powersource3">solair</label>
+      </div>
+    </div>
+    <div>
+      <label for="features">Features:</label>
+      <select name="features" id="features"  [(ngModel)]="boat.features">
+        <option value="navigator">AI navigator</option>
+        <option value="wastedetector">waste detection sensors </option>
+      </select>
+    </div>
+    <div>
+      <label for="cleancapacity">Clean Capacity:</label>
+      <input type="number" id="cleancapacity" [(ngModel)]="boat.cleancapacity" placeholder="On Kilograme">
+    </div>
+    <div>
+      <label for="boatrange">Boat Range:</label>
+      <input type="number" id="boatrange" [(ngModel)]="boat.range" placeholder="On Kilometer">
+    </div>
+    <div>
+      <label for="imgUrl" >Image URL:</label>
+      <input type="url" id="imgUrl" [(ngModel)]="boat.imgUrl" placeholder="https://example.pnj">
+    </div>
+    <div>
+      <button (click)="editboat()" class="save">Save</button>
+      <button [routerLink]="['/boats']" class="Back">Back</button>
+    </div>
+  </div>
+</div>

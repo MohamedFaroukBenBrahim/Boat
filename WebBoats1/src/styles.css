@@ -1,0 +1,10 @@
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+body{
+    margin: 0px;
+}
+.custom-snackbar {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}

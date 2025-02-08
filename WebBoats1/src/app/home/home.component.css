@@ -1,0 +1,111 @@
+*{
+    padding: 8px;
+    width: 99%;
+    /* color: #F2F2F2; */
+}
+.main{
+    display:inline-flex;
+    background: #F2F2F2 ;
+    /* background-color: rgb(1, 40, 60); */
+}
+hr{
+    width: 300px;
+    float: left;
+    margin: 0px;
+    border: none;
+    border-bottom: #00C2E5 solid 3.5px;
+}
+h1{
+    color: #00C2E5;
+}
+span{
+    text-transform: uppercase;
+    font-style: oblique;
+    font-style: italic;
+}
+p{
+    font-size: xx-large;
+    font-family:'Montserrat', sans-serif;
+}
+.mainimg{
+    /* box-shadow: #00C2E5 0px 0px 10px 5px; */
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: #00C2E5 2px solid;
+    box-shadow: white 0px 0px 1px 0px;
+    transition: 1s;
+}
+.mainimg:hover{
+    transform: translateY(-10px);
+    box-shadow: white -15px 15px 1px 1px; 
+    border-left: 10px #00C2E5 solid;
+    border-bottom: 10px #00C2E5 solid;
+}
+.join{
+    background-color: rgb(1, 40, 60);
+    color: white;
+    display: flex;
+}
+.joinh1{
+    font-size: 50px;
+    font-family:'Montserrat', sans-serif;
+}
+button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+    background-color: #00C2E5;
+    color: white;
+    border: none;
+    box-shadow: white 0px 0px 1px 0px;
+    transition: 0.3s;
+}
+button:hover{
+    transform: translateY(-5px);
+    box-shadow: white -2px 5px 1px 1px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    transition: 1s;
+}
+a:hover{
+    text-decoration: underline #00C2E5;
+}
+.imgjoin{
+    padding: 0px;
+    width: 500px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    border: #00C2E5 2px solid;
+    box-shadow: white 0px 0px 1px 0px;
+    transition: 1s;
+}
+.imgjoin:hover{
+    transform: translateY(-10px);
+    box-shadow: white -15px 15px 1px 1px; 
+    border-left: 10px #00C2E5 solid;
+    border-bottom: 10px #00C2E5 solid;
+}
+.imgbuy{
+    padding: 0px;
+    width: 500px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    border: #00C2E5 2px solid;
+    box-shadow: white 0px 0px 1px 0px;
+    transition: 1s;
+}
+.imgbuy:hover{
+    transform: translateY(-10px);
+    box-shadow: white -15px 15px 1px 1px; 
+    border-left: 10px #00C2E5 solid;
+    border-bottom: 10px #00C2E5 solid;
+}
+

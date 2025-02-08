@@ -1,0 +1,19 @@
+<div class="contact">
+    <div class="blockone">
+        <h1>Let's Get In touch</h1>
+        <img src="assets/Contact.png" alt="">
+        <h3>Or Contact us with</h3> 
+        <button class="img"><img src="assets/icons8-facebook-48.png" alt="" class="media"></button>
+        <button class="img"><img src="assets/icons8-gmail-logo-96.png" alt="" class="media"></button>
+        <button class="img"><img src="assets/icons8-twitter-logo-96.png" alt="" class="media"></button>
+    </div>
+    <div class="blocktwo">
+        <h2>Contact Us</h2>
+        <form  (ngSubmit)="send(msg)">
+            <input type="text" placeholder="Name" [(ngModel)]="msg.name"  name="name" required>
+            <input type="email" name="email" id="" placeholder="Email" [(ngModel)]="msg.email" required>
+            <input type="tel" name="phone" id="" placeholder="Phone" [(ngModel)]="msg.phone"  required>
+            <textarea name="message" id="" placeholder="Message" class="message" [(ngModel)]="msg.message" required></textarea>
+            <button class="sub" type="submit" [disabled]="invalid()" >Submit</button>
+        </form>
+</div>

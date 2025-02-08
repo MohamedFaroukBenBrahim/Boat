@@ -1,0 +1,33 @@
+<div class="ALL">
+<!-- <h1 class="bigname">Boats</h1> -->
+<div class="boat-list">
+  <div *ngFor="let boat of filteredBoats" class="boat">
+    <div class="boat-details">
+      <h1 class="name">{{ boat.name }}</h1>
+      <h2 class="id">ID: {{ boat.id }}</h2>
+      <p><strong>Available:</strong> {{ boat.available ? 'On Stock' : 'Out of stock' }}</p>
+      <!-- <p><strong>Manufacturing Date:</strong> {{ boat.manufacturing | date:'yyyy-MM-dd' }}</p> -->
+      <p><strong>Type:</strong> {{ boat.type }}</p>
+      <p><strong>Power Source:</strong> {{ boat.powersource }}</p>
+      <!-- <p><strong>Features:</strong> {{ boat.features }}</p> -->
+      <!-- <p><strong>Clean Capacity:</strong> {{ boat.cleancapacity }} Kilograme</p>
+      <p><strong>Boat Range:</strong> {{ boat.range }} Kilometer</p> -->
+      <p><strong>Price:</strong> {{ boat.price }} Dinars</p>
+      <div class="button-group">
+        <button class="delete" (click)="deleteboat(boat.id)">Delete</button>
+        <button class="edit" [routerLink]="['/editboat',boat.id]">Edit</button>
+        <button class="buy" [routerLink]="['/details',boat.id]">Buy</button>
+        <button class="details" [routerLink]="['/details',boat.id]" >details</button>
+      </div>
+    </div>
+    <div class="boatimg">
+      <img [src]="boat.imgUrl" alt="Boat Image : )" class="">
+    </div>
+  </div>
+  <div class="addboat">
+    <div class="addcard">
+    <button class="addbutton" [routerLink]="['/add']"><img src="/assets/7134131.png" alt=""></button>
+    </div>
+  </div>
+</div>
+</div>

@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="mainclass">
+    <div class="navlogo">
+          <a href="home"><span>The</span><p>Cleaning</p> Boats</a>
+    </div>
+    <div class="navcontent">
+      <ul>
+        <li><a  href="/home">Home</a></li>
+        <li><a  href="/boats">Boats</a></li>
+        <li><a  href="/contact">Contact</a></li>
+        <li><a href="/aboutus">About us</a></li>
+      </ul>
+    </div>    
+    <div class="search">
+        <form >
+          <input type="text" placeholder="search..." name="search" [(ngModel)]="sea" class="search">
+            <button type="submit" (click)="search(sea)"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <div class="buttons">
+        <button [routerLink]="['/login']">log in</button>
+        <button [routerLink]="['/signup']">sign up</button>
+    </div>
+</div>
+

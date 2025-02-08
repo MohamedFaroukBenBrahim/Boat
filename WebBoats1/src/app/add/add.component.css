@@ -1,0 +1,46 @@
+.ALL{
+    margin: 20px 20% ;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 0.1px gray;
+    box-shadow: 1px 1px 10px 5px gray;
+}
+div {
+  margin-bottom: 10px;
+}
+label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+input, select {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+  color: white;
+  width: 100%;
+}
+.Back{
+  background-color: rgb(199, 186, 186);
+  transition: 0.3s;
+}
+.Back:hover{
+  transform: translateY(-5px);
+  background-color: black;
+}
+.save{
+  background-color: #ff4d4d;
+  transition: 0.3s;
+}
+.save:hover{
+  transform: translateY(-5px);
+  background-color: #b10609;
+}

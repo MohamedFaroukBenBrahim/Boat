@@ -1,0 +1,71 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+div{
+    width:100%;
+    padding: 50px 50px;
+}
+aside{
+    background-color: #007A99;
+    width: 50%;
+    height: 640px;
+    text-align: center;
+    color: beige;
+    padding: 50px;
+}
+button{
+    background-color: #007A99;
+    color: aliceblue;
+    width: 500px;
+    padding: 12px 40px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 40px;
+}
+button:hover{
+    background:url(file:///C:/Users/benbr/OneDrive/Desktop/telecome%20site%20by%20me/background.jpg) ;
+}
+img{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    transition: 1s;
+    cursor: pointer;
+}
+img:hover{
+    width: 70px;
+    height: 70px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+}
+.OY{
+    width: 50%;
+    border-radius: 30px;
+    border-color: black;
+    padding: 5px;
+    height: 20px;
+    padding-right: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.SAYA{
+    text-decoration: none;
+    color: rgb(81, 66, 170);
+    font-size: larger;
+}
+.cibon{
+    font-size: large;
+    padding: 20px;
+    color: antiquewhite;
+    font-family: 'Times New Roman', serif;
+}
+.tt{
+    width: 200px;
+    height: 200px;
+}
